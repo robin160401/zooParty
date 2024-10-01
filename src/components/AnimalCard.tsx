@@ -16,7 +16,7 @@ function AnimalCard(props: AnimalProps){
             <div className="text-l text-center">{props.species}</div>
             <div className="text-l text-center">{props.habitat}</div>
             <div className="text-l text-center">{props.diet}</div>
-            <div className="text-l text-center">{props.lifespan} years Lifespan</div>
+            <div className="text-l text-center">{props.lifespan} years^ Lifespan</div>
             <ul className="list-disc ml-8">{props.funFacts.map((fact) => (
                 <li>{fact}</li>
             ))}</ul>
